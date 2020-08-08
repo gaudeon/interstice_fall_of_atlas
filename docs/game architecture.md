@@ -22,6 +22,20 @@ Copyright (c) 2020 Dash Bang Splat Games (Travis Chase), all rights reserved.
 
 ### Main Menu
 
+There are three states for the main menu depending on if it is the first time the game is played (no saved data), has saved data but no game completion or has saved data and has completed the game at least once.
+
+#### First time played (no saved data)
+
+<img src="images/main_menu_wireframe.png" width="400px" height="300px">
+
+#### Has saved data but no game completion
+
+<img src="images/main_menu_after_starting_to_play_wireframe.png" width="400px" height="300px">
+
+#### Has saved data and has completed the game at least once 
+
+<img src="images/main_menu_after_first_completion_wireframe.png" width="400px" height="300px">
+
 ### In Game UI
 
 ### In Game Menu Overlay
