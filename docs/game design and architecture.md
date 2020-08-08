@@ -1,6 +1,6 @@
 # Interstice: Fall of Atlas
 
-"Soft" Game Architecture
+Game Design and Architecture
 
 Copyright (c) 2020 Dash Bang Splat Games (Travis Chase), all rights reserved.
 

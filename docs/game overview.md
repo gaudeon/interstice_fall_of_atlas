@@ -1,6 +1,6 @@
 # Interstice: Fall of Atlas
 
-Game Design
+Game Overview
 
 Copyright (c) 2020 Dash Bang Splat Games (Travis Chase), all rights reserved.
 
