@@ -60,6 +60,10 @@ The City stage and challenges have slightly deviated interfaces because in the c
 
 ### In Game Menu Overlay
 
+There is an in game menu that is available for display as well as an overlay. Allowing for in game menu optons such as *Resume*, *Options*, *Statistics* and *Quit*
+
+<img src="images/in_game_menu_wireframe.png" width="400px" height="300px">
+
 ## Event Handling
 
 ### Main Menu
