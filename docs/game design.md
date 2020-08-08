@@ -201,14 +201,14 @@ This leads into a final conflict with either the player or Atlas triumphs.
 Each part of the story, beginning / middle / end have a fundamental choice that leads to different paths and story interaction between the player, their environment and Atlas.
 
 How that generally flows is as follows:
-Beginning Arc (Allies in Survival) Choice 1 > Middle Arc (Conflict and Differences) Choice 1 > Ending Arc (Further Conflict and Final Confrontation) Choice 1
-Beginning Arc (Allies in Survival) Choice 1 > Middle Arc (Conflict and Differences) Choice 1 > Ending Arc (Further Conflict and Final Confrontation) Choice 2
-Beginning Arc (Allies in Survival) Choice 1 > Middle Arc (Conflict and Differences) Choice 2 > Ending Arc (Further Conflict and Final Confrontation) Choice 3
-Beginning Arc (Allies in Survival) Choice 1 > Middle Arc (Conflict and Differences) Choice 2 > Ending Arc (Further Conflict and Final Confrontation) Choice 4
-Beginning Arc (Allies in Survival) Choice 2 > Middle Arc (Conflict and Differences) Choice 3 > Ending Arc (Further Conflict and Final Confrontation) Choice 5
-Beginning Arc (Allies in Survival) Choice 2 > Middle Arc (Conflict and Differences) Choice 3 > Ending Arc (Further Conflict and Final Confrontation) Choice 6
-Beginning Arc (Allies in Survival) Choice 2 > Middle Arc (Conflict and Differences) Choice 4 > Ending Arc (Further Conflict and Final Confrontation) Choice 7
-Beginning Arc (Allies in Survival) Choice 2 > Middle Arc (Conflict and Differences) Choice 4 > Ending Arc (Further Conflict and Final Confrontation) Choice 8
+- Beginning Arc (Allies in Survival) Choice 1 > Middle Arc (Conflict and Differences) Choice 1 > Ending Arc (Further Conflict and Final Confrontation) Choice 1
+- Beginning Arc (Allies in Survival) Choice 1 > Middle Arc (Conflict and Differences) Choice 1 > Ending Arc (Further Conflict and Final Confrontation) Choice 2
+- Beginning Arc (Allies in Survival) Choice 1 > Middle Arc (Conflict and Differences) Choice 2 > Ending Arc (Further Conflict and Final Confrontation) Choice 3
+- Beginning Arc (Allies in Survival) Choice 1 > Middle Arc (Conflict and Differences) Choice 2 > Ending Arc (Further Conflict and Final Confrontation) Choice 4
+- Beginning Arc (Allies in Survival) Choice 2 > Middle Arc (Conflict and Differences) Choice 3 > Ending Arc (Further Conflict and Final Confrontation) Choice 5
+- Beginning Arc (Allies in Survival) Choice 2 > Middle Arc (Conflict and Differences) Choice 3 > Ending Arc (Further Conflict and Final Confrontation) Choice 6
+- Beginning Arc (Allies in Survival) Choice 2 > Middle Arc (Conflict and Differences) Choice 4 > Ending Arc (Further Conflict and Final Confrontation) Choice 7
+- Beginning Arc (Allies in Survival) Choice 2 > Middle Arc (Conflict and Differences) Choice 4 > Ending Arc (Further Conflict and Final Confrontation) Choice 8
 
 This implies are are eight (8) uniques story plots possible to play possible in this game.
 
