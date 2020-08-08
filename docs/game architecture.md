@@ -68,6 +68,32 @@ There is an in game menu that is available for display as well as an overlay. Al
 
 ### Main Menu
 
+The Main Menu will support both mouse pointer and keyboard directional interactions. 
+
+Keyboard: 
+
+- Pressing up/down arrows or w/s keys will allow highlighting of the selected option. 
+- Pressing enter on the highlighted option will perform the menu item action.
+
+Mouse:
+
+- Hovering over an item will highlight the option.
+- Left clicking on the highlighted option will perform the menu item action.
+
+#### Menu Item Actions
+
+*New Story* - This will allow the player to reset the story back to the beginning state. There is not intent to allow saved game sessions at this time, except the current save, so this will overwrite existing story progress. Players will still keep all inventory obtained thus far into the new game.
+
+*Begin Story* - This will initialize a new game taking the player into the tutorial level and beginning of the story.
+
+*Continue Story* - This will bring the player to restore the current game. 
+
+*Sandbox Mode* - This will bring the player to an open exploration version of the game maps.
+
+*Options* - This will provide basic game options. For now the only intended options are changing the keyboard mapping of keys from their defaults.
+
+*Statistics* - This will display a screen showing all statistics monitored by the game. Such as number of deaths, number of times game story has been completed, fasted time completion for each story level, number of enemies destroyed, number of time each weapon / utility were used, amount of time in each armor chassis.
+
 ### In Game
 
 ## Data Engines
