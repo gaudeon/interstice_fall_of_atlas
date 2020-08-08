@@ -16,7 +16,7 @@ Copyright (c) 2020 Dash Bang Splat Games (Travis Chase), all rights reserved.
 - Control
 - Low cost development
 
-# Game Structure (Description and Diagrams)
+# Game Structure
 
 ## User Interface
 
@@ -118,7 +118,7 @@ Mouse:
 
 ## Help System
 
-# Game Loop Sequences (Description and Diagrams)
+# Game Loop Sequences
 
 ## User Interface
 
