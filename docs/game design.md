@@ -159,6 +159,7 @@ During Game Play:
 - Fire Secondary = Right SHIFT
 - Fire Active Utilities = DEL, END and PAGE DOWN
 - Toggle Passive Utilities = INS, HOME, PAGE UP
+- Toggle MiniMap Display = TAB
 
 ## Player Character
 

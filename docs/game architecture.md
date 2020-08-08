@@ -38,6 +38,26 @@ There are three states for the main menu depending on if it is the first time th
 
 ### In Game UI
 
+The player ship remains at the center of the camera.
+
+In the top left is Player Energy / Shield Bar, below that is player health bar.
+The Player Energy / Shield bar is expended with any attack action taken as well as with any damage taken.
+Player actions cease if their is no energy left until it start to recharge.
+If damage is taken with there is not shield left them health is taken. When health is reduced to zero the player loose one of their lives.
+Player lives are displayed as little ship icons just below the energy and health bars.
+
+In the top center is the current overall objective of the stage and the time remaining to complete the stage. 
+
+In the top right there is a mini map showing information on the current screen plus a screen's work of information in every direction around the main screen as smaller details (barients, points of interest, enemies and possbily enemy projectiles)
+
+In the bottom right is the current array of player capabilities (attacks and utility actions)
+
+Enemies and stage elements are displayed on the screen relative to the players current position on the larger map of the stage. Thus they may be off screen at various times.
+
+The City stage and challenges have slightly deviated interfaces because in the city stage there is no direct objective or time limit. Also player actions are limited to harmless utility actions.
+
+<img src="images/game_ui_wireframe.png" width="400px" height="300px">
+
 ### In Game Menu Overlay
 
 ## Event Handling
