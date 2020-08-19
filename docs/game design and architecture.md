@@ -122,7 +122,17 @@ There are two kinds of persistent game data. Overall game data and per story gam
 
 Data can be serialized into JSON and stored to the local filesystem, [link](https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html) Files can also be encrypted, [link](https://docs.godotengine.org/en/stable/tutorials/io/encrypting_save_games.html)
 
-### Overal Game Data
+### Global Game Data
+
+This is game data persistent across stories; this includes play statistics and player inventory. Meaning a player could gather and craft many things from the first story playthrough as well as accumulate statistics; then start a new story and continue with those statistics and inventory.
+
+Saving this data happens at regular intervals (every minute) and at major transition points (such as changing stages) 
+
+There 
+
+#### Godot Notes
+
+To keep the saving happening without blocking or slowing gameplay save functions should happen in a separate thread from gameplay, [link](https://docs.godotengine.org/en/stable/tutorials/threads/using_multiple_threads.html)
 
 ### Per Story Game Data
 
@@ -181,3 +191,9 @@ Data can be serialized into JSON and stored to the local filesystem, [link](http
 ## Game configuration system (options)
 
 ## Help System
+
+## Unit Testing
+
+### Godot Notes
+
+Use GUT a Godot addon for unit testing, [link](https://github.com/bitwes/Gut)
