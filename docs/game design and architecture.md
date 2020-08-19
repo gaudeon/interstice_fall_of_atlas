@@ -128,7 +128,13 @@ This is game data persistent across stories; this includes play statistics and p
 
 Saving this data happens at regular intervals (every minute) and at major transition points (such as changing stages) 
 
-There 
+#### Object model considerations
+
+There should be a GlobalGameDataManager that extends an IGameDataManager interface to manage collection and saving of Global Game Data.
+
+GlobalGameDataManager should take a IGameDataStorage object as a constructor parameter to know what storage system to save the serialized data to.
+
+What is actually passed to GlobalGameDataManager is a GlobalGameDataStorage class which implements the IGameDataStorage interface.
 
 #### Godot Notes
 
@@ -136,7 +142,25 @@ To keep the saving happening without blocking or slowing gameplay save functions
 
 ### Per Story Game Data
 
+This is game data persistent only for the current story. When a new story is chosen with an existing story in place this data is overwritten. There for an "are you sure?" dialog should be displayed to the player to confirm the overwrite.
+
+Saving of this data happens only after significant story progressions occur, this generally happens at the successful completion of a stage or, again, if a new story is selected therefore overwriting save data.
+
+#### Object model considerations
+
+There should be a StoryGameDataManager class that extends from an IGameDataManager interface to manage collection and saving of Story Game Data.
+
+StoryGameDataManager should tak a IGameDataStorage object as a constructor parameter to know what storage system to save the serialized data to.
+
+What is actually passed to StoryGameDataManager is a StoryGameDataStorage class withc implementsthe IGameDataStorage interface.
+
 ### Per Stage Game Data
+
+This is game data only tracked for the current stage of the game. When a stage completes this data is lost and new stage data is instanciated for the newly loaded stage. This data is not persistent, meaning no saving occurs
+
+#### Object model considerations
+
+Stage Game related data is generally distributed across the many objects represented in the stage and is itself not centralized as a manager like persistent data (such as Global Game data or Story Game data are)
 
 ## In Game Dynamic Systems (collisions, physics)
 
@@ -154,43 +178,19 @@ To keep the saving happening without blocking or slowing gameplay save functions
 
 ## Help System
 
-# Game Loop Sequences
+## Helpful Design Patterns
 
-## User Interface
+### State Machines
 
-### Main Menu
+#### Godot Notes
 
-### In Game UI
+Recommendations on how to design state machines in Godot, [link](https://docs.godotengine.org/en/stable/tutorials/misc/state_design_pattern.html)
 
-### In Game Menu Overlay
+### Object Instancing
 
-## Event Handling
+#### Godot Nodes
 
-### Main Menu
-
-### In Game
-
-## Data Engines
-
-### Overal Game Data
-
-### Per Stage Game Data
-
-## In Game Dynamic Systems (collisions, physics)
-
-## In Game Logic Engine
-
-## Graphics Engine
-
-## Sound Engine
-
-## Music System
-
-## Control Abstraction Layer (keyboard / mouse)
-
-## Game configuration system (options)
-
-## Help System
+Recommendations on using signal (event) based instancing of objects being created dynamically (like projectiles), [link](https://docs.godotengine.org/en/stable/tutorials/misc/instancing_with_signals.html#shooting-example)
 
 ## Unit Testing
 
