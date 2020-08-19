@@ -66,6 +66,10 @@ There is an in game menu that is available for display as well as an overlay. Al
 
 ## Event Handling
 
+### Godot Notes
+
+Godot itself has two kinds of events. InputEvents, [link](https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html#inputevent), used for peripheral device based interactions. And Signals, [link](https://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_basics.html#signals), used for objects (Nodes) in godot to raise and respond to custom events. 
+
 ### Main Menu
 
 The Main Menu will support both mouse pointer and keyboard directional interactions. 
@@ -94,11 +98,33 @@ Mouse:
 
 *Statistics* - This will display a screen showing all statistics monitored by the game. Such as number of deaths, number of times game story has been completed, fasted time completion for each story level, number of enemies destroyed, number of time each weapon / utility were used, amount of time in each armor chassis.
 
+*Quit* - This will end the game application.
+
 ### In Game
+
+Press the in game menu keyboard key (default Esc) will bring up the in game menu overlay, gameplay is also paused when the in game menu is active.
+
+#### In Game Menu Actions
+
+*Resume* - This will hide the in game menu overlay and resume gameplay.
+
+*Options* - This will provide the same options as available in the Main Menu options screen.
+
+*Statistics* - This will provide the same information as available in the Main Menu options screen.
+
+*Quit* - This will quit gameplay and return the state of the game back to the Main Menu
 
 ## Data Engines
 
+There are two kinds of persistent game data. Overall game data and per story game data. There is also preset configuration for each stage of the game that leads to in stage only data that expires at the end of a given stage.
+
+### Godot Notes
+
+Data can be serialized into JSON and stored to the local filesystem, [link](https://docs.godotengine.org/en/stable/tutorials/io/saving_games.html) Files can also be encrypted, [link](https://docs.godotengine.org/en/stable/tutorials/io/encrypting_save_games.html)
+
 ### Overal Game Data
+
+### Per Story Game Data
 
 ### Per Stage Game Data
 
