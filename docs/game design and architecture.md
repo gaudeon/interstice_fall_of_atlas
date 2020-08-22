@@ -70,6 +70,18 @@ There is an in game menu that is available for display as well as an overlay. Al
 
 Godot itself has two kinds of events. InputEvents, [link](https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html#inputevent), used for peripheral device based interactions. And Signals, [link](https://docs.godotengine.org/en/latest/getting_started/scripting/gdscript/gdscript_basics.html#signals), used for objects (Nodes) in godot to raise and respond to custom events. 
 
+### Custom Events 
+
+#### Object Model Considerations 
+
+Custom Game Events are managed with a centralized EventHub that uses a pub/sub style of event handling. EventTopics are represented and emit events that can be listened to by anything else.
+
+#### Godot Notes
+
+Doing pub/sub in Godot with Customer Signals [link](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html#custom-signals) will function like the following.
+
+A Parent Node is setup as the EventHub. Each EventTopic is a Node underneath the EventHub and can contain a number of Custome Signals that can be called to be emitted. Other Nodes use the Topics and run the emit functions to emit the signal. Those Nodes that want to listen for events of that kind would have listens in their own scripts as described in signals documentation [link](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html#connecting-signals-in-code)
+
 ### Main Menu
 
 The Main Menu will support both mouse pointer and keyboard directional interactions. 
@@ -163,6 +175,15 @@ This is game data only tracked for the current stage of the game. When a stage c
 Stage Game related data is generally distributed across the many objects represented in the stage and is itself not centralized as a manager like persistent data (such as Global Game data or Story Game data are)
 
 ## In Game Dynamic Systems (collisions, physics)
+
+### Godot Notes
+
+Godot provides 2D physics capabilties that are documented starting here: [link](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html)
+
+- Area2D - nodes will provided background environmental elements with the capability to impact motion. Example an wormhole might have a stronger gravitational pull around it for objects in motion (ships or projectiles) nearby
+- StaticBody2D - nodes will provide barrier like elements such as walls or closed gateways with the capability to repel in motions objects (ships or projectiles) that collide with them.
+- RigidBody2D - nodes will provide in motion objects with consistent collision results that happen in 2D space such as in motion space debry 
+- KinematicBody2D - nodes will provide motion with custom interaction depending on the object it collides with this could be useful for objects such as ships or projectiles which might change interaction depending what it collides with
 
 ## In Game Logic Engine
 
