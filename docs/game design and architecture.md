@@ -20,6 +20,13 @@ Copyright (c) 2020 Dash Bang Splat Games (Travis Chase), all rights reserved.
 
 ## User Interface
 
+### Sourcing Notes
+
+Using royalty free assets for UI and game elements from sites such as:
+
+[opengameart.org](https://opengameart.org/)
+[kenney.nl](https://kenney.nl/assets)
+
 ### Main Menu
 
 There are three states for the main menu depending on if it is the first time the game is played (no saved data), has saved data but no game completion or has saved data and has completed the game at least once.
@@ -189,13 +196,35 @@ Godot provides 2D physics capabilties that are documented starting here: [link](
 
 ## Graphics Engine
 
+Using Godots 2D graphics engine
+
 ## Sound Engine
+
+Using Godots sound engine
+
+### Sourcing Notes
+
+Using royalty free sound effects from sites such as:
+
+[freesound.org](https://freesound.org/browse/tags/space/)
 
 ## Music System
 
+### Sourcing Notes
+
+Using royalty free music loops / snippets initially from sites such as:
+
+[dl-sounds.com](https://www.dl-sounds.com/royalty-free/category/game-film/video-game/)
+[freemusicarchive.org](https://freemusicarchive.org/genre/Techno?sort=track_date_published&d=1&page=4)
+[soundimage.org](https://soundimage.org/sci-fi/)
+
 ## Control Abstraction Layer (keyboard / mouse)
 
+Using Godots input handling and responding to InputEvents by various UI and game elements
+
 ## Game configuration system (options)
+
+Options will be stored in a JSON file (see data engines for additional notes)
 
 ## Help System
 
