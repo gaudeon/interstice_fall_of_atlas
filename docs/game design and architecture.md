@@ -111,7 +111,7 @@ Mouse:
 
 *Begin Story* - This will initialize a new game taking the player into the tutorial level and beginning of the story.
 
-<img src="images/main_menu_begin_story_sequence.png" width="400px" height="300px" alt="Quit Game Sequence">
+<img src="images/main_menu_begin_story_sequence.png" width="700px" height="300px" alt="Quit Game Sequence">
 
 *Continue Story* - This will bring the player to restore the current game. 
 
