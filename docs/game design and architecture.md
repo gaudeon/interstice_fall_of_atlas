@@ -111,6 +111,8 @@ Mouse:
 
 *Begin Story* - This will initialize a new game taking the player into the tutorial level and beginning of the story.
 
+<img src="images/main_menu_begin_story_sequence.png" width="400px" height="300px" alt="Quit Game Sequence">
+
 *Continue Story* - This will bring the player to restore the current game. 
 
 *Sandbox Mode* - This will bring the player to an open exploration version of the game maps.
@@ -147,21 +149,21 @@ Data can be serialized into JSON and stored to the local filesystem, [link](http
 
 ### Global Game Data
 
-This is game data persistent across stories; this includes play statistics and player inventory. Meaning a player could gather and craft many things from the first story playthrough as well as accumulate statistics; then start a new story and continue with those statistics and inventory.
+This is game data persistent across stories; this includes options settings, play statistics and player inventory. Player inventory being global implies a player could gather and craft many things from the first story playthrough as well as accumulate statistics; then start a new story and continue with those statistics and inventory.
 
 Saving this data happens at regular intervals (every minute) and at major transition points (such as changing stages) 
 
 #### Object model considerations
 
-There should be a GlobalGameDataManager that extends an IGameDataManager interface to manage collection and saving of Global Game Data.
+There should be a GlobalGameDataManager to manage collection and saving of Global Game Data.
 
-GlobalGameDataManager should take a IGameDataStorage object as a constructor parameter to know what storage system to save the serialized data to.
-
-What is actually passed to GlobalGameDataManager is a GlobalGameDataStorage class which implements the IGameDataStorage interface.
+GlobalGameDataManager should take a GameDataFileStorage object as a constructor parameter to know what storage system to save the serialized data to.
 
 #### Godot Notes
 
 To keep the saving happening without blocking or slowing gameplay save functions should happen in a separate thread from gameplay, [link](https://docs.godotengine.org/en/stable/tutorials/threads/using_multiple_threads.html)
+
+GlobalGameDataManager and GameDataFileStorage should be autoloaded in Godot project settings so every Stage has them.
 
 ### Per Story Game Data
 
@@ -171,11 +173,13 @@ Saving of this data happens only after significant story progressions occur, thi
 
 #### Object model considerations
 
-There should be a StoryGameDataManager class that extends from an IGameDataManager interface to manage collection and saving of Story Game Data.
+There should be a StoryGameDataManager to manage collection and saving of Story Game Data.
 
-StoryGameDataManager should tak a IGameDataStorage object as a constructor parameter to know what storage system to save the serialized data to.
+StoryGameDataManager should take a GameDataFileStorage object as a constructor parameter to know what storage system to save the serialized data to.
 
-What is actually passed to StoryGameDataManager is a StoryGameDataStorage class withc implementsthe IGameDataStorage interface.
+##### Godot Notes
+
+StoryGameDataManager and GameDataFileStorage should be autoloaded in Godot project settings so every Stage has them.
 
 ### Per Stage Game Data
 
@@ -197,6 +201,18 @@ Godot provides 2D physics capabilties that are documented starting here: [link](
 - KinematicBody2D - nodes will provide motion with custom interaction depending on the object it collides with this could be useful for objects such as ships or projectiles which might change interaction depending what it collides with
 
 ## In Game Logic Engine
+
+### Godot Notes
+
+#### Scenes
+
+Everything in Godot is a Scene. For the purposes of this topic however we are only talking about scenes that are associated with the dispaly and represent the the current state of the main viewport of a game. We are going to call those Stages to disambiguate from the term Scene.
+
+##### Switching Scenes
+
+See the following document about custom scene switching [link](https://docs.godotengine.org/en/stable/getting_started/step_by_step/singletons_autoload.html?highlight=switch%20scene#custom-scene-switcher)
+
+Note instead of just calling it Global, define it as StageManager
 
 ## Graphics Engine
 
