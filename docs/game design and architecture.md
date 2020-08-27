@@ -111,9 +111,11 @@ Mouse:
 
 *Begin Story* - This will initialize a new game taking the player into the tutorial level and beginning of the story.
 
-<img src="images/main_menu_begin_story_sequence.png" width="1000px" height="300px" alt="Quit Game Sequence">
+<img src="images/main_menu_begin_story_sequence.png" width="1000px" height="300px" alt="Begin Story Sequence">
 
 *Continue Story* - This will bring the player to restore the current game. 
+
+<img src="images/main_menu_continue_story_sequence.png" width="1000px" height="300px" alt="Continue Story Sequence">
 
 *Sandbox Mode* - This will bring the player to an open exploration version of the game maps.
 
