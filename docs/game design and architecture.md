@@ -105,6 +105,8 @@ Mouse:
 
 #### Menu Item Actions
 
+<img src="images/main_menu_use_cases.png" width="400px" height="300px" alt="Main Menu Use Cases">
+
 *New Story* - This will allow the player to reset the story back to the beginning state. There is not intent to allow saved game sessions at this time, except the current save, so this will overwrite existing story progress. Players will still keep all inventory obtained thus far into the new game.
 
 *Begin Story* - This will initialize a new game taking the player into the tutorial level and beginning of the story.
@@ -119,9 +121,7 @@ Mouse:
 
 *Quit* - This will end the game application.
 
-<img src="images/main_menu_use_cases.png" width="400px" height="300px">
-
-<img src="images/main_menu_quit_game_sequence.png" width="400px" height="300px">
+<img src="images/main_menu_quit_game_sequence.png" width="400px" height="300px" alt="Quit Game Sequence">
 
 ### In Game
 
