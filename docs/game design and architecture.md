@@ -123,6 +123,8 @@ Mouse:
 
 *Sandbox Mode* - This will bring the player to an open exploration version of the game maps.
 
+<img src="images/main_menu_sandbox_mode_sequence.png" width="600px" height="160px" alt="Sandbox Mode Sequence">
+
 
 *Options* - This will provide basic game options. For now the only intended options are changing the keyboard mapping of keys from their defaults.
 
