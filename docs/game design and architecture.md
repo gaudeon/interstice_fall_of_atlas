@@ -119,6 +119,10 @@ Mouse:
 
 *Quit* - This will end the game application.
 
+<img src="images/main_menu_use_cases.png" width="400px" height="300px">
+
+<img src="images/main_menu_quit_game_sequence.png" width="400px" height="300px">
+
 ### In Game
 
 Press the in game menu keyboard key (default Esc) will bring up the in game menu overlay, gameplay is also paused when the in game menu is active.
