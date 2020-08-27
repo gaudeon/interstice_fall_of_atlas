@@ -109,19 +109,26 @@ Mouse:
 
 *New Story* - This will allow the player to reset the story back to the beginning state. There is not intent to allow saved game sessions at this time, except the current save, so this will overwrite existing story progress. Players will still keep all inventory obtained thus far into the new game.
 
+<img src="images/main_menu_new_story_sequence.png" width="1000px" height="300px" alt="New Story Sequence">
+
 *Begin Story* - This will initialize a new game taking the player into the tutorial level and beginning of the story.
 
 <img src="images/main_menu_begin_story_sequence.png" width="1000px" height="300px" alt="Begin Story Sequence">
+
 
 *Continue Story* - This will bring the player to restore the current game. 
 
 <img src="images/main_menu_continue_story_sequence.png" width="1000px" height="300px" alt="Continue Story Sequence">
 
+
 *Sandbox Mode* - This will bring the player to an open exploration version of the game maps.
+
 
 *Options* - This will provide basic game options. For now the only intended options are changing the keyboard mapping of keys from their defaults.
 
+
 *Statistics* - This will display a screen showing all statistics monitored by the game. Such as number of deaths, number of times game story has been completed, fasted time completion for each story level, number of enemies destroyed, number of time each weapon / utility were used, amount of time in each armor chassis.
+
 
 *Quit* - This will end the game application.
 
