@@ -225,6 +225,10 @@ See the following document about custom scene switching [link](https://docs.godo
 
 Note instead of just calling it Global, define it as StageManager
 
+### Stage Use Cases
+
+<img src="images/in_game_stage_use_cases.png" width="400px" height="300px" alt="Stage Use Cases">
+
 ## Graphics Engine
 
 Using Godots 2D graphics engine
