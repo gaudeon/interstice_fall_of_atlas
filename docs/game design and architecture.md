@@ -253,6 +253,8 @@ Note instead of just calling it Global, define it as StageManager
 
 #### In Game Menu Use Cases
 
+<img src="images/in_game_menu_use_cases.png" width="500px" height="300px" alt="In Game Menu Use Cases">
+
 #### Craft Gear Use Cases
 
 #### Manage Gear Use Cases
