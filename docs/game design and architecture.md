@@ -241,9 +241,15 @@ Note instead of just calling it Global, define it as StageManager
 
 #### Manage Inventory Use Cases
 
+*Note: Inventory is a kind of menu however the game is not paused while accessing inventory. Inventory and Craft are part of the same menu on separate horizontal tabs*
+
 <img src="images/manage_inventory_use_cases.png" width="500px" height="300px" alt="Manage Inventory Use Cases">
 
 #### Craft Items Use Cases
+
+*Note: Craft is a kind of menu however the game is not paused while accessing crafting. Inventory and Craft are part of the same menu on separate horizontal tabs*
+
+<img src="images/craft_item_use_cases.png" width="500px" height="300px" alt="Craft Item Use Cases">
 
 #### In Game Menu Use Cases
 

@@ -64,7 +64,7 @@ Another possible idea to explore is around New Game+ to support using existing a
 - Stage to Stage transitions. Two kinds of stages. A mission stage where combat and resource collection (hunting and gathering) occurs. And a settlement (or city) stage that acts as a peaceful interstitial to mission stages.
 - Basic NPC interaction. Multiple choice dialogue options, next objective assignment, current objective completion
 - Inventory Management. Inventory space is unlimited however only 6 items can be assigned to be able to actively use them outside of the inventory interface.
-- Item crafting.
+- Item crafting. Crafting recipe list, all recipe outcomes start off as unknown until crafted at least. Possible ingredient combinations only get displayed once player collects an item for the first time. 
 - Stash Management and Gear craft during settlement stages
 - Limited Use/Depletable/Limited Quantitiy Items
 - Limited Use/Non-Depletable/Singale Quantity Items
@@ -176,6 +176,7 @@ During Game Play:
 - Toggle MiniMap Display = TAB
 - Open Inventory = I
 - Menu / Inventory / Stash Navigation = Arrow Keys
+- Activate Selected Menu / Inventory / Stash (depending on context) = ENTER
 
 ## Player Character
 
