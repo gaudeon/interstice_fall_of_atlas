@@ -233,9 +233,11 @@ Note instead of just calling it Global, define it as StageManager
 
 #### NPC Interaction Use Cases
 
-<img src="images/npc_interaction_use_cases.png" width="500px" height="300px" alt="Stage Use Cases">
+<img src="images/npc_interaction_use_cases.png" width="500px" height="300px" alt="NPC Interaction Use Cases">
 
 #### Control Ship Use Cases
+
+<img src="images/control_ship_use_cases.png" width="500px" height="300px" alt="Control Ship Use Cases">
 
 #### Manage Inventory Use Cases
 

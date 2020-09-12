@@ -65,6 +65,10 @@ Another possible idea to explore is around New Game+ to support using existing a
 - Basic NPC interaction. Multiple choice dialogue options, next objective assignment, current objective completion
 - Inventory Management and Single use Item crafting
 - Stash Management and Gear craft during settlement stages
+- Limited Use/Depletable/Limited Quantitiy Items
+- Limited Use/Non-Depletable/Singale Quantity Items
+- Gear System. Base Ship Hull with set attribute modifiers and mount points for certain sub components. Ship Hulls also may allow or restrict the use of secondary weapons and also the kinds of primary/secondary weapons that may be associated with a given Hull. Ideally every ship hull should have trade offs (strengths and weaknesses) in some balanced fashion.
+
 
 ## Third-Party Software Used
 
@@ -162,8 +166,8 @@ During Game Play:
 - Rotate Right = D
 - Fire Primary = Right CTRL
 - Fire Secondary = Right SHIFT
-- Fire Active Utilities = DEL, END and PAGE DOWN
-- Toggle Passive Utilities = INS, HOME, PAGE UP
+- Use Items = DEL, END and PAGE DOWN
+- Use Items = INS, HOME, PAGE UP
 - Toggle MiniMap Display = TAB
 
 ## Player Character
