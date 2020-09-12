@@ -241,6 +241,8 @@ Note instead of just calling it Global, define it as StageManager
 
 #### Manage Inventory Use Cases
 
+<img src="images/manage_inventory_use_cases.png" width="500px" height="300px" alt="Manage Inventory Use Cases">
+
 #### Craft Items Use Cases
 
 #### In Game Menu Use Cases

@@ -51,7 +51,7 @@ There is a linear aspect to the game as it progresses through the story, however
 Possible idea to explore is that the game stages combine into one large area that is avaiable as a sandbox at the end of the game after it's completion.
 Another possible idea to explore is around New Game+ to support using existing advancement and replay the story with the option of completing it with different choices.
 
-## Key Features
+## Game Features
 
 - 2D top down view of the game
 - Player controls a ship with the ability to move through space and fire its armament of weapons (guns / missiles)
@@ -63,12 +63,13 @@ Another possible idea to explore is around New Game+ to support using existing a
 - Sequential Objective Gameplay. Complete current objective before moving onto the next objective. Another way to describe this is a linear quest system.
 - Stage to Stage transitions. Two kinds of stages. A mission stage where combat and resource collection (hunting and gathering) occurs. And a settlement (or city) stage that acts as a peaceful interstitial to mission stages.
 - Basic NPC interaction. Multiple choice dialogue options, next objective assignment, current objective completion
-- Inventory Management and Single use Item crafting
+- Inventory Management. Inventory space is unlimited however only 6 items can be assigned to be able to actively use them outside of the inventory interface.
+- Item crafting.
 - Stash Management and Gear craft during settlement stages
 - Limited Use/Depletable/Limited Quantitiy Items
 - Limited Use/Non-Depletable/Singale Quantity Items
 - Gear System. Base Ship Hull with set attribute modifiers and mount points for certain sub components. Ship Hulls also may allow or restrict the use of secondary weapons and also the kinds of primary/secondary weapons that may be associated with a given Hull. Ideally every ship hull should have trade offs (strengths and weaknesses) in some balanced fashion.
-
+- In Stage Item Gathering. Items can be found by destroying resources or destroying enemies. Items will float freely in a stage and only disappear if gathered or Player leaves the curreent stage. Items can also be destroyed when floating freely in a stage.
 
 ## Third-Party Software Used
 
@@ -166,9 +167,15 @@ During Game Play:
 - Rotate Right = D
 - Fire Primary = Right CTRL
 - Fire Secondary = Right SHIFT
-- Use Items = DEL, END and PAGE DOWN
-- Use Items = INS, HOME, PAGE UP
+- Use Items assigned in Item Slot 1 = DEL
+- Use Items assigned in Item Slot 2 = END
+- Use Items assigned in Item Slot 3 = PAGE DOWN
+- Use Items assigned in Item Slot 4 = INS
+- Use Items assigned in Item Slot 5 = HOME
+- Use Items assigned in Item Slot 6 = PAGE UP
 - Toggle MiniMap Display = TAB
+- Open Inventory = I
+- Menu / Inventory / Stash Navigation = Arrow Keys
 
 ## Player Character
 
