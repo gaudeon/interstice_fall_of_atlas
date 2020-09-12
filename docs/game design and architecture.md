@@ -225,9 +225,31 @@ See the following document about custom scene switching [link](https://docs.godo
 
 Note instead of just calling it Global, define it as StageManager
 
+### Game Entities
+
 ### Stage Use Cases
 
 <img src="images/in_game_stage_use_cases.png" width="500px" height="300px" alt="Stage Use Cases">
+
+#### NPC Interaction Use Cases
+
+<img src="images/npc_interaction_use_cases.png" width="500px" height="300px" alt="Stage Use Cases">
+
+#### Control Ship Use Cases
+
+#### Manage Inventory Use Cases
+
+#### Craft Items Use Cases
+
+#### In Game Menu Use Cases
+
+#### Craft Gear Use Cases
+
+#### Manage Gear Use Cases
+
+#### Manage Stash Use Cases
+
+#### Stage Objective Use Cases
 
 ## Graphics Engine
 

@@ -53,13 +53,18 @@ Another possible idea to explore is around New Game+ to support using existing a
 
 ## Key Features
 
-2D top down view of the game
-Player controls a ship with the ability to move through space and fire its armament of weapons (guns / missiles)
-Player ship can engage in combat with enemy ships and a boss ship in an instanced / stage style map. 
-Player has ability to customize ship body and armaments with broader options over time. 
-Post game sandbox mode.
-All unlocks are remembered in a state independant of the state of the story. Meaning playing, or replaying the story is possible without having to start over advancements and inventory attained. 
-Menu supports Story Mode (New or Continue/Load Story), Sandbox Mode (Unlockable after finishing first playthrough), Game Play Statistics and Options
+- 2D top down view of the game
+- Player controls a ship with the ability to move through space and fire its armament of weapons (guns / missiles)
+- Player ship can engage in combat with enemy ships and a boss ship in an instanced / stage style map. 
+- Player has ability to customize ship body and armaments with broader options over time. 
+- Post game sandbox mode.
+- All unlocks are remembered in a state independant of the state of the story. Meaning playing, or replaying the story is possible without having to start over advancements and inventory attained. 
+- Menu supports Story Mode (New or Continue/Load Story), Sandbox Mode (Unlockable after finishing first playthrough), Game - Play Statistics and Options
+- Sequential Objective Gameplay. Complete current objective before moving onto the next objective. Another way to describe this is a linear quest system.
+- Stage to Stage transitions. Two kinds of stages. A mission stage where combat and resource collection (hunting and gathering) occurs. And a settlement (or city) stage that acts as a peaceful interstitial to mission stages.
+- Basic NPC interaction. Multiple choice dialogue options, next objective assignment, current objective completion
+- Inventory Management and Single use Item crafting
+- Stash Management and Gear craft during settlement stages
 
 ## Third-Party Software Used
 
