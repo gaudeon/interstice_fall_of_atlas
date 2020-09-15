@@ -70,6 +70,7 @@ Another possible idea to explore is around New Game+ to support using existing a
 - Limited Use/Non-Depletable/Singale Quantity Items
 - Gear System. Base Ship Hull with set attribute modifiers and mount points for certain sub components. Ship Hulls also may allow or restrict the use of secondary weapons and also the kinds of primary/secondary weapons that may be associated with a given Hull. Ideally every ship hull should have trade offs (strengths and weaknesses) in some balanced fashion.
 - In Stage Item Gathering. Items can be found by destroying resources or destroying enemies. Items will float freely in a stage and only disappear if gathered or Player leaves the curreent stage. Items can also be destroyed when floating freely in a stage.
+- Gear crafting. Settlement only. Have to navigate to the node where gear crafting is available when it is unlocked (story progression on first play, subsequent plays have it unlocked) Crafting recipe list, recipes only appear when one part of a recipe are brought to the settlement stage. When sufficient parts required for a gear to be crafted are in players inventory and/or stash then player can choose to craft that gear (which is available in player ship status screen to change.
 
 ## Third-Party Software Used
 
