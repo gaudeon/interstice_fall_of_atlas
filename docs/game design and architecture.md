@@ -269,7 +269,11 @@ Note instead of just calling it Global, define it as StageManager
 
 #### Stage Objective Use Cases
 
+There is only one use case, viewing the stage objectives.
+
 #### Player Info Use Cases
+
+There is only one use case, viewing the player info.
 
 ## Graphics Engine
 
