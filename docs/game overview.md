@@ -63,14 +63,15 @@ Another possible idea to explore is around New Game+ to support using existing a
 - Sequential Objective Gameplay. Complete current objective before moving onto the next objective. Another way to describe this is a linear quest system.
 - Stage to Stage transitions. Two kinds of stages. A mission stage where combat and resource collection (hunting and gathering) occurs. And a settlement (or city) stage that acts as a peaceful interstitial to mission stages.
 - Basic NPC interaction. Multiple choice dialogue options, next objective assignment, current objective completion
-- Inventory Management. Inventory space is unlimited however only 6 items can be assigned to be able to actively use them outside of the inventory interface.
-- Item crafting. Crafting recipe list, all recipe outcomes start off as unknown until crafted at least. Possible ingredient combinations only get displayed once player collects an item for the first time. 
+- Inventory Management. Inventory space is unlimited however only 6 items can be assigned to be able to actively use them outside of the inventory interface. *Note inventory management, item crafting and player info are all on the in game menu just on different tabs*
+- Item crafting. Crafting recipe list, all recipe outcomes start off as unknown until crafted at least. Possible ingredient combinations only get displayed once player collects an item for the first time. *Note inventory management, item crafting and player info are all on the in game menu just on different tabs*
+- Player Info. Display current stats based on ship hull and gear configuration. Also display what hull and gear are equipped. This is a read only screen. Gear management is done in settlements only. *Note inventory management, item crafting and player info are all on the in game menu just on different tabs*
 - Stash Management and Gear craft during settlement stages
 - Limited Use/Depletable/Limited Quantitiy Items
 - Limited Use/Non-Depletable/Singale Quantity Items
 - Gear System. Base Ship Hull with set attribute modifiers and mount points for certain sub components. Ship Hulls also may allow or restrict the use of secondary weapons and also the kinds of primary/secondary weapons that may be associated with a given Hull. Ideally every ship hull should have trade offs (strengths and weaknesses) in some balanced fashion.
 - In Stage Item Gathering. Items can be found by destroying resources or destroying enemies. Items will float freely in a stage and only disappear if gathered or Player leaves the curreent stage. Items can also be destroyed when floating freely in a stage.
-- Gear crafting. Settlement only. Have to navigate to the node where gear crafting is available when it is unlocked (story progression on first play, subsequent plays have it unlocked) Crafting recipe list, recipes only appear when one part of a recipe are brought to the settlement stage. When sufficient parts required for a gear to be crafted are in players inventory and/or stash then player can choose to craft that gear (which is available in player ship status screen to change.
+- Gear crafting. Settlement only. Have to navigate to the node where gear crafting is available when it is unlocked (story progression on first play, subsequent plays have it unlocked) Crafting recipe list, recipes only appear when one part of a recipe are brought to the settlement stage. When sufficient parts required for a gear to be crafted are in players inventory and/or stash then player can choose to craft that gear (which is available to change in a manage gear node also in the settlement).
 
 ## Third-Party Software Used
 
@@ -176,6 +177,8 @@ During Game Play:
 - Use Items assigned in Item Slot 6 = PAGE UP
 - Toggle MiniMap Display = TAB
 - Open Inventory = I
+- Open Item Crafting = O
+- Open Player Info = P
 - Menu / Inventory / Stash Navigation = Arrow Keys
 - Activate Selected Menu / Inventory / Stash (depending on context) = ENTER
 
