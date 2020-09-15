@@ -261,6 +261,8 @@ Note instead of just calling it Global, define it as StageManager
 
 #### Manage Gear Use Cases
 
+<img src="images/manage_gear_use_cases.png" width="500px" height="300px" alt="Manage Gear Use Cases">
+
 #### Manage Stash Use Cases
 
 #### Stage Objective Use Cases
