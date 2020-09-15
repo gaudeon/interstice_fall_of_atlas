@@ -265,6 +265,8 @@ Note instead of just calling it Global, define it as StageManager
 
 #### Manage Stash Use Cases
 
+<img src="images/manage_stash_use_cases.png" width="500px" height="300px" alt="Manage Stash Use Cases">
+
 #### Stage Objective Use Cases
 
 #### Player Info Use Cases
