@@ -265,6 +265,8 @@ Note instead of just calling it Global, define it as StageManager
 
 #### Stage Objective Use Cases
 
+#### Player Info Use Cases
+
 ## Graphics Engine
 
 Using Godots 2D graphics engine

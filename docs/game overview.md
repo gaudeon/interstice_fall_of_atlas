@@ -176,6 +176,7 @@ During Game Play:
 - Use Items assigned in Item Slot 5 = HOME
 - Use Items assigned in Item Slot 6 = PAGE UP
 - Toggle MiniMap Display = TAB
+- Open Stage Objectives = U
 - Open Inventory = I
 - Open Item Crafting = O
 - Open Player Info = P
