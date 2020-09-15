@@ -257,6 +257,8 @@ Note instead of just calling it Global, define it as StageManager
 
 #### Craft Gear Use Cases
 
+<img src="images/craft_gear_use_cases.png" width="500px" height="300px" alt="Craft Gear Use Cases">
+
 #### Manage Gear Use Cases
 
 #### Manage Stash Use Cases
