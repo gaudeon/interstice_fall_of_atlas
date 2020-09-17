@@ -90,7 +90,7 @@ Doing pub/sub in Godot with Customer Signals [link](https://docs.godotengine.org
 A Parent Node is setup as the EventHub. Each EventTopic is a Node underneath the EventHub and can contain a number of Custome Signals that can be called to be emitted. Other Nodes use the Topics and run the emit functions to emit the signal. Those Nodes that want to listen for events of that kind would have listens in their own scripts as described in signals documentation [link](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html#connecting-signals-in-code)
 
 
-<img src="images/events_erd.png" width="600px" height="100px" alt="Events Entity Relationship Diagram">
+<img src="images/events_erd.png" width="800px" height="100px" alt="Events Entity Relationship Diagram">
 
 ### Main Menu
 
@@ -109,6 +109,8 @@ Mouse:
 #### Menu Item Actions
 
 <img src="images/main_menu_use_cases.png" width="400px" height="300px" alt="Main Menu Use Cases">
+
+<img src="images/main_menu_erd.png" width="800px" height="400px" alt="Main Menu Entity Relationship Diagram">
 
 *New Story* - This will allow the player to reset the story back to the beginning state. There is not intent to allow saved game sessions at this time, except the current save, so this will overwrite existing story progress. Players will still keep all inventory obtained thus far into the new game.
 
