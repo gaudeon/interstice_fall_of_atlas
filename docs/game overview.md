@@ -167,6 +167,7 @@ During Game Play:
 - Thrust Reverse = S
 - Rotate Left = A
 - Rotate Right = D
+- Interact = E
 - Fire Primary = Right CTRL
 - Fire Secondary = Right SHIFT
 - Use Items assigned in Item Slot 1 = DEL
