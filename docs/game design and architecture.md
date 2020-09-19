@@ -244,6 +244,10 @@ Note instead of just calling it Global, define it as StageManager
 
 <img src="images/control_ship_use_cases.png" width="500px" height="300px" alt="Control Ship Use Cases">
 
+#### Ship ERD (not complete)
+
+<img src="images/ship_erd.png" width="1200px" height="800px" alt="Ship Entity Relationship Diagram">
+
 #### Manage Inventory Use Cases
 
 *Note: Inventory is a kind of menu however the game is not paused while accessing inventory. Inventory and Craft are part of the same menu on separate horizontal tabs*
