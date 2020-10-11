@@ -244,7 +244,7 @@ Note instead of just calling it Global, define it as StageManager
 
 <img src="images/control_ship_use_cases.png" width="500px" height="300px" alt="Control Ship Use Cases">
 
-#### Ship ERD (not complete)
+#### Ship Object Design (not complete)
 
 <img src="images/ship_uml.png" width="1200px" height="800px" alt="Ship Object Design">
 
