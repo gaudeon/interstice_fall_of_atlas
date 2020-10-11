@@ -246,7 +246,7 @@ Note instead of just calling it Global, define it as StageManager
 
 #### Ship ERD (not complete)
 
-<img src="images/ship_erd.png" width="1200px" height="800px" alt="Ship Entity Relationship Diagram">
+<img src="images/ship_uml.png" width="1200px" height="800px" alt="Ship Object Design">
 
 #### Manage Inventory Use Cases
 
