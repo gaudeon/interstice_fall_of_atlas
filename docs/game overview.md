@@ -198,6 +198,10 @@ That ship has the following game specific attributes:
 - Current Health = The remaining amount of health. This value is reduced by damage when the ships energy is in a depleted state. Normally Health does not regenerate over time as energy does.
 - Health Recharge Rate = The amount of health recharged per second of time. For players this is usually zero.
 
+AI Attribute Ideas...
+
+
+
 ## Enemies
 
 Enemies are also ships and so will have attributes similar to the ones mentioned under the player character.
@@ -234,7 +238,20 @@ How that generally flows is as follows:
 - Beginning Arc (Allies in Survival) Choice 2 > Middle Arc (Conflict and Differences) Choice 4 > Ending Arc (Further Conflict and Final Confrontation) Choice 7
 - Beginning Arc (Allies in Survival) Choice 2 > Middle Arc (Conflict and Differences) Choice 4 > Ending Arc (Further Conflict and Final Confrontation) Choice 8
 
+Beginning Arch Choose
+	Choose to follow your friend or go out on your own.
+		Following your friend has a chance of him not becoming the Atlas prototype at the end (depending on Middle and End Arch choices) (2 or of 4 ending paths with this beginning arc choice will be your friend not choosing to become Atlas and 1 of them will have him follow you into combat with the AI that does become the Atlas prototype)
+		Going out on your mostly leads to your friend choosing to become the Atlas prototype (3 our of 4 ending paths)
+
 This implies are are eight (8) uniques story plots possible to play possible in this game.
+
+Player and most/all enemies bosses are Artificially Intelligent beings. They are Sentient clouds of extrememly low frequency electromagnetic radiation. 
+
+Player death is done in the form of "loading a backup copy of themselves" this backup copy usually has some form of slight mutation. Game Mechanics idea is to mutate player ship attributes in some small way. Like add a 0.1 to somether and remove 0.1 from something else. 
+
+Players get 3 lives in a mission. If they lose all of them they really die and return to the Settlement.
+
+Settlements will restore players and their ship on mission failure. It comes at the cost of a small loan that the player has to pay back to the settlemnt before that can further upgrade their ship (any service beneficial to the player that costs credits.).
 
 # Technical Aspects
 
