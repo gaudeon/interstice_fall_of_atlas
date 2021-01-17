@@ -131,8 +131,12 @@ Mouse:
 
 *Options* - This will provide basic game options. For now the only intended options are changing the keyboard mapping of keys from their defaults.
 
+<img src="images/main_menu_options_sequence.png" width="1000px" height="300px" alt="Options Sequence">
+
 
 *Statistics* - This will display a screen showing all statistics monitored by the game. Such as number of deaths, number of times game story has been completed, fasted time completion for each story level, number of enemies destroyed, number of time each weapon / utility were used, amount of time in each armor chassis.
+
+<img src="images/main_menu_statistics_sequence.png" width="1000px" height="300px" alt="Statistics Sequence">
 
 
 *Quit* - This will end the game application.
