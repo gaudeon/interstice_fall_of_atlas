@@ -110,10 +110,6 @@ Mouse:
 
 <img src="images/main_menu_use_cases.png" width="400px" height="300px" alt="Main Menu Use Cases">
 
-<img src="images/main_menu_erd.png" width="1200px" height="400px" alt="Main Menu Entity Relationship Diagram">
-
-<img src="images/game_data_uml.png" width="400px" height="800px" alt="Game Data Object Design">
-
 *New Story* - This will allow the player to reset the story back to the beginning state. There is not intent to allow saved game sessions at this time, except the current save, so this will overwrite existing story progress. Players will still keep all inventory obtained thus far into the new game.
 
 <img src="images/main_menu_new_story_sequence.png" width="1200px" height="400px" alt="New Story Sequence">
@@ -142,6 +138,14 @@ Mouse:
 *Quit* - This will end the game application.
 
 <img src="images/main_menu_quit_game_sequence.png" width="400px" height="300px" alt="Quit Game Sequence">
+
+#### Main Menu Entity Relationships
+
+<img src="images/main_menu_erd.png" width="1200px" height="400px" alt="Main Menu Entity Relationship Diagram">
+
+#### Game Data Object Design
+
+<img src="images/game_data_uml.png" width="400px" height="800px" alt="Game Data Object Design">
 
 ### In Game
 
